@@ -1,0 +1,25 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "Task manager for household chores and tasks",
+  "main": "index.js",
+  "dependencies": {
+    "gatsby": "^2.18.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dkimble85/task-manager.git"
+  },
+  "author": "Daniel Kimble",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dkimble85/task-manager/issues"
+  },
+  "homepage": "https://github.com/dkimble85/task-manager#readme"
+}
