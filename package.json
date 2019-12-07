@@ -4,7 +4,10 @@
   "description": "Task manager for household chores and tasks",
   "main": "index.js",
   "dependencies": {
+    "@emotion/core": "^10.0.22",
+    "@emotion/styled": "^10.0.23",
     "gatsby": "^2.18.7",
+    "gatsby-plugin-emotion": "^4.1.16",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
