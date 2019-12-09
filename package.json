@@ -3,6 +3,17 @@
   "version": "1.0.0",
   "description": "Task manager for household chores and tasks",
   "main": "index.js",
+  "author": "Daniel Kimble",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "@emotion/core": "^10.0.22",
     "@emotion/styled": "^10.0.23",
@@ -11,16 +22,14 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "prettier": "^1.19.1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/dkimble85/task-manager.git"
   },
-  "author": "Daniel Kimble",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/dkimble85/task-manager/issues"
   },
