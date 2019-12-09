@@ -16,7 +16,7 @@ const NavLink = styled(Link)`
     border-bottom: 2px solid #222;
   }
 
-  &:last-of-type: {
+  &:last-of-type {
     margin-right: 0;
   }
 `;
@@ -31,9 +31,8 @@ const Header = () => (
       padding: 0.5rem calc((100vw - 550px - 0.5rem) / 2);
     `}
   >
-    {/* site name */}
     <NavLink to="/" fontWeight="bold">
-      Task Manager
+      FEM Workshop
     </NavLink>
     <nav
       css={css`
@@ -43,11 +42,10 @@ const Header = () => (
       <NavLink to="/" activeClassName="current-page">
         Home
       </NavLink>
-      <NavLink to="/help/" activeClassName="current-page">
-        Help
+      <NavLink to="/about/" activeClassName="current-page">
+        About
       </NavLink>
     </nav>
-    {/*navigation */}
   </header>
 );
 
