@@ -1,2 +1,2 @@
-# task-manager
-Application that manages and reminds you of house chores/tasks
+# gatsby-poc
+Proof of concept application while learning Gatsby.js
